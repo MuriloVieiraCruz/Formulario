@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('https://i.pinimg.com/originals/64/8a/02/648a023fd3a8a36f596f21264f790ed7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div {
+    background-color: rgb(4, 4, 7);
+    color: aliceblue;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin-left: 420px;
+    margin-top: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.botao {
+    font-family: 'Press Start 2P', cursive;
+}
+
+    .barra-pesquisa {
+        width: 200px; /* defina o tamanho inicial da barra de pesquisa */
+        transition: width 0.5s ease; /* adicione uma transição suave para a animação */
+      }
+      
+      .barra-pesquisa:hover, .barra-pesquisa:focus {
+        width: 300px; /* defina o tamanho que deseja quando o mouse passar ou quando estiver em foco */
+      }
